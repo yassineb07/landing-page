@@ -1,0 +1,34 @@
+body {
+	font-family: roboto, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.top {
+	background-color: #1f2937;
+	flex: 1;
+}
+
+.info {
+	flex: 1;
+}
+
+.quot {
+	background-color: #e5e7eb;
+	flex: 1;
+}
+
+.actioncall {
+	flex: 1;
+}
+
+.footer {
+	background-color: #1f2937;
+	height: 72px;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+}
