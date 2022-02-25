@@ -59,12 +59,20 @@ p {
 }
 button {
 	background-color: #3882f6;
-	padding: 4px 24px;
-	border: 1px solid #3882f6;
+	padding: 8px 30px;
+	border: 2px solid #3882f6;
 	border-radius: 8px;
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
+	transition-duration: 0.4s;
+}
+
+.topbutton:hover {
+  background-color: #004fce;
+	border: 2px solid #004fce;
+  color: white;
+	cursor: pointer;	
 }
 
 .info {
@@ -131,6 +139,11 @@ button {
 }
 .downbutton {
 	border: 2px solid white;
+}
+.downbutton:hover {
+  background-color: white;
+  color: #3882f6;
+	cursor: pointer;
 }
 
 .footer {
