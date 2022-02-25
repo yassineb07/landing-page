@@ -2,6 +2,7 @@ body {
 	font-family: roboto, sans-serif;
 	display: flex;
 	flex-direction: column;
+	margin: 0;
 }
 
 .top {
